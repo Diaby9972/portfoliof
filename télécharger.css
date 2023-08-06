@@ -1,0 +1,178 @@
+body{
+    background-image: url(pexels-photo-695644.webp);
+    
+    background-size: 100%;
+}
+.container{
+    color: white;
+}
+nav{
+    width: 100%;
+    display: flex;
+    color: aliceblue;
+    margin-left: 50%;
+   margin-top: -4%;
+    
+}
+nav ul{
+    width: 80%;
+    float: left;
+}
+nav ul li{
+    justify-content: space-between;
+    list-style-type: none;
+    display: inline-block;
+    color: white;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+nav ul li a:hover{
+    background-color: rgb(9, 86, 118);   
+}
+h4 a{
+    margin-left: 80%;
+    margin-top: -4%;
+    border-radius: 50%;
+    color: white;
+}
+h1{
+    color: white;
+}
+.cv{  
+    margin: 0px 0px;    
+    display: grid; 
+    padding-left: -10px;
+    width: 70px;
+   
+   
+}
+.cv1{
+    margin-left: 10%;
+}
+.cv2{
+    margin-left: 10%;
+   }
+
+h2{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+span{
+    color: brown;
+}
+.menu{
+    width: 45px;
+    display: none;
+    padding-left: 10px;
+}
+@media screen and (max-width:1280px){
+  .cv{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width:1000px){
+    .travail{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+.menu{
+    width: 45px;
+    display: none;
+    padding-left: -10px;
+
+}
+@media screen and (max-width:886px){
+    .cv{
+        width: 50px;
+        padding-left: 15px;
+        
+    }
+    .cv img{
+        margin-left: 0px;
+        width: 70px;
+        
+    }
+    .cv2 {
+        margin-left: 0px;
+        width: 70px;
+        
+       }
+}
+
+@media screen and (max-width:750px){
+    .cv {
+        display: flex;
+        flex-wrap: wrap;
+        
+
+       
+    }
+    .cv1 {
+        margin-left: -5px;
+        
+    }
+   .cv2 {
+    margin-left: -5px;
+    
+   }
+ }
+
+@media screen and (max-width:675px){
+    .travail h1{
+        padding-left: 0px;  
+    }
+    .travail .menu{
+        padding-left: -20px;
+    }
+    .travail{
+        padding: 0;
+    }
+    .travail .menu{
+        display: block;
+    }
+    .navbar{
+        top: 0;
+        left: 0;
+        position: absolute;
+        backdrop-filter: blur(7px);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -800px;
+        transition: all 0.5s ease;
+    }
+    .mobile-menu{
+        margin-left: 0;
+    }
+    .travail ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .travail .navbar li{
+        margin: 25px 0;
+        font-size: 1.2rem;
+    }
+    .travail .menu{
+        position: absolute;
+        top: 20px;
+        left: 240px;
+    }
+    .travail h1{
+        padding-left: 25px;
+        padding-top: 18px;
+    }
+    .cv img{
+        width: 350px;
+        height: 750px;
+    }
+    }

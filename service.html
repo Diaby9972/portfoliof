@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="service.css">
+</head>
+<body>
+    
+        <div class="travail">
+            <h1 id="Portfolio">Port<span>folio</span></h1>
+            <nav>
+                <ul class="navbar">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="apropos.html">Apropos</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="projet.html">Projet</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <img src="index.png" alt="" class="menu">
+    <h2>Mes services</h2>
+        <div class="image">
+            <div ><img src="26.jpg" alt="photo"></div>
+            <div ><img src="23.jpg" alt="photo"></div> 
+            <div ><img src="24.jpeg" alt="photo"></div> 
+            <div ><img src="21.jpeg" alt="photo"></div> 
+            <div ><img src="25.jpeg" alt="photo"></div> 
+            <div ><img src="22.jpeg" alt="photo"></div>          
+        </div>
+        <script>
+            const menu = document.querySelector(".menu")
+            const navbar = document.querySelector(".navbar")
+     
+            menu.addEventListener('click',()=>{
+            navbar.classList.toggle('mobile-menu')
+            })
+    </script>
+    </div>
+</body>
+</html>

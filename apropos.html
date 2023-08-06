@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="a-propos.css">
+</head>
+<body>
+   
+        <div class="apropos">
+            <h1 id="Portfolio">Port<span>folio</span></h1>
+            <nav>
+                <ul class="navbar">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="apropos.html">Apropos</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="projet.html">Projet</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+      <img src="index.png" alt="" class="menu">
+    <h2>Apropos</h2>
+    
+        </div>
+        <div class="contenue">
+        <div class="information">
+            <p>Etudiante à l'école superieur de commerce et de technoligie "ESCT"<br>en informatique de gestion IG actuellement en licence 3.</p>
+            <p>Etudiante aussi à l'institut universitaire de gestion de Bamako "IUG"<br>en gestion d'entreprise et d'administration en licence 1.</p>
+            <p>Passionné par le développement Full stack.Mon objectif est d'être<br> une source d'inspiration pour d'autre en technologie</p>
+            <p>Conception Web livrées dans les délai et dans les limites du budget.</p>
+        </div>
+        <div class="photo"><img src="diaby.png.png" alt="photo">
+        </div>
+        </div>
+        <script>
+            const menu = document.querySelector(".menu")
+            const navbar = document.querySelector(".navbar")
+     
+            menu.addEventListener('click',()=>{
+            navbar.classList.toggle('mobile-menu')
+            })
+    </script>
+   
+</body>
+</html>

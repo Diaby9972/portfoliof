@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<body>
+    
+            <div class="travail">
+                <h1 id="Portfolio">Port<span>folio</span></h1>
+                <nav>
+                <ul class="navbar">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="apropos.html">Apropos</a></li>
+                <li><a href="service.html">Service</a></li>
+                <li><a href="projet.html">Projet</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <img src="index.png" alt="" class="menu">
+        <h2>Contact-moi</h2>
+        <div class="contenu">
+        <div class="bas">
+             
+                
+                    <span><i class="fa fa-address-book-o" aria-hidden="true"></i>Adresse</span>
+                    <span>Bamako,Mali</span><br><br><br><br>
+               
+                
+                     <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                    <span><a href="https://mail.google.com/mail/u/0/?pli=1#inbox">Diabyfatoumata7802@gmail.com</a></span>
+                    <br><br><br><br>
+                    <span> <i class="fa fa-phone-square" aria-hidden="true"></i>78029972</span>
+        </div>
+        <div class="form">
+            <form action="lab">
+                <label for="prenom"></label>
+                <input type="text" placeholder="Prénom-Nom"><br><br>
+                <label for="Prénom"></label>
+                <input type="text" placeholder="Email"><br><br>
+                <label for="prenom"></label>
+                <input type="text" placeholder="Numéro"><br><br>
+                <textarea placeholder="Ecris un méssage"></textarea><br><br><br>
+                <button><a href="https://mail.google.com/mail/u/0/?pli=1#inbox">Envoie</a></button>
+            </form>
+        </div>
+    </div>
+        <script>
+            const menu = document.querySelector(".menu")
+            const navbar = document.querySelector(".navbar")
+     
+            menu.addEventListener('click',()=>{
+            navbar.classList.toggle('mobile-menu')
+            })
+    </script>
+    </div>
+</body>
+</html>

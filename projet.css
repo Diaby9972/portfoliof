@@ -1,0 +1,133 @@
+body{
+    background-image: url(pexels-photo-695644.webp);
+  
+    background-size: 100%;
+}
+.travail{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding-left: 190px;
+    border-radius: 25%;
+    
+    
+    
+}
+.comptes{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(370px,auto));
+    grid-gap: 2rem;
+    align-items: center;
+    margin-top: 4.5rem;
+    margin-left: -20px;
+    
+}
+.container{
+    color: white;
+}
+span{
+    color: brown;
+}
+nav{
+    width: 100%;
+    display: flex;
+    color: aliceblue;
+    margin-left: 50%;
+   margin-top: -4%;
+    
+}
+nav ul{
+    width: 80%;
+    float: left;
+}
+nav ul li{
+    justify-content: space-between;
+    list-style-type: none;
+    display: inline-block;
+    color: white;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+nav ul li a:hover{
+    background-color: rgb(9, 86, 118);
+    
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+}
+.comptes img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: all .30s;
+}
+.menu{
+    width: 25px;
+    display: none;
+}
+@media screen and (max-width:1000px){
+    .travail{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+.menu{
+    width: 25px;
+    display: none;
+}
+@media screen and (max-width:675px){
+    .travail h1{
+        padding-left: 0px;
+        
+    }
+    .travail .menu{
+        padding-left: -100px;
+    }
+    .travail{
+        padding: 0;
+    }
+    .travail .menu{
+        display: block;
+        
+    }
+    .navbar{
+        top: 0;
+        left: 0;
+        position: absolute;
+        backdrop-filter: blur(7px);
+        width: 70%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -700px;
+        transition: all 0.5s ease;
+    }
+    .mobile-menu{
+        margin-left: 0;
+    }
+    .travail ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .travail .navbar li{
+        margin: 25px 0;
+        font-size: 1.2rem;
+    
+    }
+    .travail .menu{
+        position: absolute;
+        top: 20px;
+        left: 240px;
+    }
+    .travail h1{
+        padding-left: 25px;
+        padding-top: 18px;
+    }
+    
+    }

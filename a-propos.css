@@ -1,0 +1,130 @@
+body{
+    background-image: url(pexels-photo-695644.webp);
+    
+    background-size: 100%;
+}
+.information{
+    color: white;
+    line-height: 25px;
+    padding-left: 20px;
+}
+.apropos h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+span{
+    color: brown;
+}
+.container{
+    color: aliceblue;
+    padding-left: 200px;
+
+}
+.container{
+    color: white;
+}
+nav{
+    width: 100%;
+    display: flex;
+    color: aliceblue;
+    margin-left: 50%;
+   margin-top: -4%;
+    
+}
+nav ul{
+    width: 80%;
+    float: left;
+}
+nav ul li{
+    justify-content: space-between;
+    list-style-type: none;
+    display: inline-block;
+    color: white;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+nav ul li a:hover{
+    background-color: rgb(9, 86, 118);
+    
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+}
+.contenue{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.photo img{
+    width: 300px;
+    height: 60vh;
+    padding-top: -30px;
+    margin-left: -20px;
+}
+@media screen and (max-width:1000px){
+    .contenue{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+.menu{
+    width: 25px;
+    display: none;
+}
+@media screen and (max-width:675px){
+    .apropos h1{
+        padding-left: 0px;
+        
+    }
+    .apropos .menu{
+        padding-left: 90px;
+    }
+    .apropos{
+        padding: 0;
+    }
+    .apropos .menu{
+        display: block;
+        
+    }
+    .navbar{
+        top: 0;
+        left: 0;
+        position: absolute;
+        backdrop-filter: blur(7px);
+        width: 90%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -800px;
+        transition: all 0.5s ease;
+    }
+    .mobile-menu{
+        margin-left: 0;
+    }
+    .apropos ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .apropos .navbar li{
+        margin: 25px 0;
+        font-size: 1.2rem;
+    
+    }
+    .apropos .menu{
+        position: absolute;
+        top: 20px;
+        left: 240px;
+    }
+    .apropos h1{
+        padding-left: 25px;
+        padding-top: 18px;
+    }
+    
+    }
